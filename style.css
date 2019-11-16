@@ -1,0 +1,29 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding-right: 10px;
+  background: black;
+  width: 100vh;
+  height: 200px;
+  color: white;
+  transform: translateY(-100px);
+  transition: transform 0.5s;
+}
+
+.menu_logo {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.open-menu {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.is-open {
+  transform: translateY(0px);
+}
