@@ -4,12 +4,20 @@ nav {
   left: 0;
   display: flex;
   padding-right: 10px;
-  background: black;
+  background: rgb(190, 170, 148);
   width: 100vh;
   height: 200px;
   color: white;
   transform: translateY(-150px);
   transition: transform 0.5s;
+}
+
+ul {
+  list-style: none;
+  padding-top: 17px;
+  padding-right: 20px;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .menu_logo {
@@ -28,4 +36,8 @@ nav {
 
 .is-open {
   transform: translateY(0px);
+}
+
+ul .salon {
+  margin-top: 100px;
 }
