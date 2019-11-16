@@ -6,7 +6,7 @@ nav {
   padding-right: 10px;
   background: black;
   width: 100vh;
-  height: 200px;
+  height: 150px;
   color: white;
   transform: translateY(-100px);
   transition: transform 0.5s;
