@@ -25,7 +25,6 @@ article_tab.forEach(element => {
     element: element,
     handler: function(direction) {
       element.classList.add("is-reached");
-      console.log("scroll");
     },
     offset: "50%"
   });
