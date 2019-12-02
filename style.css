@@ -94,9 +94,7 @@ ul .salon {
   display: block;
   width: 300px;
   margin-left: auto;
-  padding-top: 10px;
   margin-right: auto;
-  padding-left: 15%;
   text-align: center;
 }
 
@@ -141,6 +139,7 @@ ul .salon {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15%;
     text-align: left;
   }
   ul {
