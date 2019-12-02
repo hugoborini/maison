@@ -52,7 +52,9 @@ footer {
 .is-open {
   transform: translateY(0px);
 }
-
+#img12 {
+  display: none;
+}
 ul .salon {
   margin-top: 100px;
 }
