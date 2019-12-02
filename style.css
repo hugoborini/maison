@@ -20,6 +20,20 @@ ul {
   margin-left: 0px;
 }
 
+footer {
+  margin-top: 50px;
+  height: 50px;
+  border-top: solid 2px gray;
+}
+
+.display {
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.is-reached {
+  opacity: 1;
+}
 .menu_logo {
   position: relative;
   margin-top: 160px;
@@ -32,6 +46,7 @@ ul {
 .open-menu {
   cursor: pointer;
   margin-top: 10px;
+  transform: rotate(45deg);
 }
 
 .is-open {
@@ -99,9 +114,9 @@ ul .salon {
   }
 
   .description {
-    display: block;
     font-size: 30px;
     width: 700px;
+    padding-top: 252px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -110,6 +125,9 @@ ul .salon {
     padding-top: 0px;
     padding-right: 20px;
     margin-left: 200px;
+  }
+  .display {
+    display: flex;
   }
 }
 

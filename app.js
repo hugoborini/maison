@@ -33,3 +33,15 @@ var img5 = document.getElementById("img5");
 img5.addEventListener("click", function() {
   img5.classList.toggle("is-click");
 });
+
+var article_tab = document.querySelectorAll(".display");
+
+article_tab.forEach(element => {
+  var waypoint = new Waypoint({
+    element: element,
+    handler: function(direction) {
+      element.classList.add("is-reached");
+    },
+    offset: "50%"
+  });
+});
